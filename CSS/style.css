@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.medsos{
+    padding: 30px 0;
+    background-color: #1FF57A;
+}
+.medsos ul li{
+    display: inline-block;
+    color: #fff;
+    margin-right: 20px;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+header{
+
+}
+header h1{
+    float: left;
+    padding: 30px 0;
+    color: black;
+}
+header ul{
+    float: right;
+}
+header ul li{
+    display: inline-block;
+}
+header ul li a{
+    padding: 25px 20px;
+    display: inline-block;
+}
+header ul li a:hover{
+    background-color: #1FF57A;
+    color: #fff;
+}
+.active{
+    background-color: #1FF57A;
+    color: #fff;
+}
+.banner{
+    height: 120vh;
+    background-image: url(../img/banner\ 5.jpeg);
+    background-size: cover;
+    color: #fff; 
+    z-index: 1;
+    padding: 20px 25px;
+    border: 1px solid #fff;
+}
+section{
+    padding: 50px 0;
+}
+section h3{
+    text-align: center;
+    padding: 35px 0;
+    color: black;
+}
+.about p{
+    color: black;
+    background-image: url(../img/banner\ 6.jpeg);
+}
+footer{
+    padding: 30px 0;
+    background-color: #1FF57A;
+    color: black;
+    text-align: center;
+}
+.layanan{
+    background-color: #fff;
+    padding: 35px 0;
+}
+.box{
+    color: #F56914;
+}
+.box:after{
+    content: 0;
+    display: block;
+    clear: both;
+}
+.box .col-5{
+    width: 20%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    float: left;
+    background-color: #fff
+}
+.icon{
+    width: 70px;
+    height: 70px;
+    border: 1px solid;
+    border-radius: 40%;
+    text-align: center;
+    line-height: 70px;
+    font-size: 15px;
+    margin: 0 auto;
+}
+.box .col-5 h4{
+    margin: 15px 0;
+}
+.background{
+    height: 120vh;
+    background-image: url(../img/banner\ 5.jpeg);
+    background-size: cover;
+    color: #fff; 
+    z-index: 1;
+    padding: 20px 25px;
+    border: 1px solid #fff;  
+}
+.img{
+    max-width: 100%;
+    height: auto;
+}
+.gallery{
+    margin: 50px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 25px;
+}
+.gallery img{
+    width: 70%;
+    height: 1300px;
+    object-fit: cover;
+    border: 1px solid #eee;
+    box-shadow: 1px 2px 3px #ddd;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.footer{
+    margin: 40px 0;
+    overflow: hidden;
+}
+.footer h2{
+    padding: 15px 0;
+    border-bottom: 2px solid #222;
+    display: inline-block;
+}
